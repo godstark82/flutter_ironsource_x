@@ -58,9 +58,6 @@ class IronSourceBannerAd extends StatefulWidget {
 class _IronSourceBannerAdState extends State<IronSourceBannerAd>
     with AutomaticKeepAliveClientMixin {
   static IronSourceBannerListener? _listener;
-  static IronSourceBannerListener? getListener() {
-    return _listener!;
-  }
 
   @override
   Widget build(BuildContext context) {

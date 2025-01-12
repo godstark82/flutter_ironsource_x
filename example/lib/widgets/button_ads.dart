@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:flutter_ironsource_x/ironsource.dart';
 import 'package:flutter_ironsource_x/models.dart';
@@ -44,6 +46,9 @@ class _ButtonAdsWidgetState extends State<ButtonAdsWidget>
         IronSource.activityPaused();
         break;
       case AppLifecycleState.detached:
+        // TODO: Handle this case.
+        break;
+      case AppLifecycleState.hidden:
         // TODO: Handle this case.
         break;
     }

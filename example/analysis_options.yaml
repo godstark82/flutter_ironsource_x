@@ -29,4 +29,3 @@ linter:
 # https://dart.dev/guides/language/analysis-options
 analyzer:
   language:
-    enableSuperMixins: true

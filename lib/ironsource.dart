@@ -82,7 +82,6 @@ class IronSource {
 }
 
 abstract class IronSourceListener {
-  @override
   Future<dynamic> _handle(MethodCall call) async {
     if (call.method == ON_INTERSTITIAL_AD_CLICKED) {
       onInterstitialAdClicked();
@@ -152,107 +151,104 @@ abstract class IronSourceListener {
     }
   }
 
-  @override
+
   void onGetOfferwallCreditsFailed(IronSourceError error) {
     // TODO: implement onGetOfferwallCreditsFailed
   }
 
-  @override
+
   void onInterstitialAdClicked() {
     // TODO: implement onInterstitialAdClicked
   }
 
-  @override
   void onInterstitialAdClosed() {
     // TODO: implement onInterstitialAdClosed
   }
 
-  @override
+
   void onInterstitialAdLoadFailed(IronSourceError error) {
     // TODO: implement onInterstitialAdLoadFailed
   }
 
-  @override
+
   void onInterstitialAdOpened() {
     // TODO: implement onInterstitialAdOpened
   }
 
-  @override
+
   void onInterstitialAdReady() {
     // TODO: implement onInterstitialAdReady
   }
 
-  @override
   void onInterstitialAdShowFailed(IronSourceError error) {
     // TODO: implement onInterstitialAdShowFailed
   }
 
-  @override
+
   void onInterstitialAdShowSucceeded() {
     // TODO: implement onInterstitialAdShowSucceeded
   }
 
-  @override
+
   void onOfferwallAdCredited(OfferwallCredit reward) {
     // TODO: implement onOfferwallAdCredited
   }
 
-  @override
+
   void onOfferwallAvailable(bool available) {
     // TODO: implement onOfferwallAvailable
   }
 
-  @override
+
   void onOfferwallClosed() {
     // TODO: implement onOfferwallClosed
   }
 
-  @override
+
   void onOfferwallOpened() {
     // TODO: implement onOfferwallOpened
   }
 
-  @override
+
   void onOfferwallShowFailed(IronSourceError error) {
     // TODO: implement onOfferwallShowFailed
   }
 
-  @override
+
   void onRewardedVideoAdClicked(Placement placement) {
     // TODO: implement onRewardedVideoAdClicked
   }
 
-  @override
+
   void onRewardedVideoAdClosed() {
     // TODO: implement onRewardedVideoAdClosed
   }
 
-  @override
+
   void onRewardedVideoAdEnded() {
     // TODO: implement onRewardedVideoAdEnded
   }
 
-  @override
   void onRewardedVideoAdOpened() {
     // TODO: implement onRewardedVideoAdOpened
   }
 
-  @override
+
   void onRewardedVideoAdRewarded(Placement placement) {
     // TODO: implement onRewardedVideoAdRewarded
   }
 
-  @override
+
   void onRewardedVideoAdShowFailed(IronSourceError error) {
     // TODO: implement onRewardedVideoAdShowFailed
   }
 
-  @override
+
   void onRewardedVideoAdStarted() {
     // TODO: implement onRewardedVideoAdStarted
   }
 
-  @override
+
   void onRewardedVideoAvailabilityChanged(bool available) {
     // TODO: implement onRewardedVideoAvailabilityChanged
   }

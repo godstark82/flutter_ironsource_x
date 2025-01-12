@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:flutter_ironsource_x/banner.dart';
 import 'package:flutter_ironsource_x_example/providers/banner_providers.dart';
